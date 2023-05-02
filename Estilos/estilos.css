@@ -9,9 +9,9 @@ header{
 .derechosreserv{
     position: absolute;
     width: 100%;
-    height: 100px;
+    height: 58px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     background-color: #71C9D4;
     color: black;
@@ -19,14 +19,14 @@ header{
 }
 img{
     position: absolute;
-    width: 360px;
-    height: 450px;
-    left: 360px;
-    top: 239px;
+    width: 280px;
+    height: 350px;
+    left: 235px;
+    top: 175px;
     border-radius: 70px;
 }
 .cajabotones{
-    padding: 20px;
+    padding: 8px;
     justify-content: space-around;
     display: flex;
     background-color: #71C9D4;
@@ -36,33 +36,33 @@ img{
     background-color: white;
     display: flex;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     border-radius: 90px;
 
 }
 .datospersonaless{
     position: absolute;
-    width: 750px;
-    height: 323px;
-    left: 820px;
-    top: 300px;
+    width: 600px;
+    height: 280px;
+    left: 590px;
+    top: 210px;
     border-radius: 59px;
     background-color: #71C9D4;
 }
 .Subtitulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     color: black;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 10px;
 
     }
 .info{
     color: black;
-    padding: 4px;
+    padding: 3px;
     margin: 10px;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -83,7 +83,7 @@ a:visited{
 
 .infoestudios{
     color: black;
-    padding: 20px;
+    padding: 12px;
     margin: 10px;
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -99,15 +99,72 @@ a:visited{
 }
 .infoconocimiento{
     color: black;
-    padding: 15px;
+    padding: 11px;
     margin: 10px;
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .infocompetencia{
     color: black;
-    padding: 5px;
+    padding: 3px;
     margin: 10px;
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+@media (max-width: 700px) {
+    nav {
+        justify-content: left;
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        background-color: #71C9D4;
+    }
+    header {
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        width: 160%;
+    }
+    body {
+        box-sizing: border-box;
+    }
+    .derechosreserv {
+        bottom: 0;
+        position: fixed;
+        flex-wrap: wrap;
+        display: flex;
+        background-color: #71C9D4;
+        width: 100%;
+        height: 2em;
+        margin: auto;
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cajabotones{
+       display: none;
+       background-color:#71C9D4;
+      }
+    img{
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        width: 52%;
+        height: 13%;
+        top: 30px;
+    }
+    .datospersonaless{
+        flex-wrap: wrap;
+        display: flex;
+        position: relative;
+        width: 140%;
+        height: 800px;
+        left: 37px;
+        top: 35px;
+        border-radius: 59px;
+        background-color: #71C9D4;
+    }
+    }
